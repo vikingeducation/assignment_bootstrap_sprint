@@ -1,3 +1,26 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
 
+header {
+  margin-bottom: 50px; }
+
+main {
+  box-sizing: border-box;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee; }
 
 /*# sourceMappingURL=styles.css.map */
