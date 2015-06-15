@@ -7,4 +7,4 @@ Pick yourself up!
 
 Donald Kelsey
 
-[View it live, here!](shadefinale.github.io/assignment_bootstrap_sprint/index.html)
+[View it live, here!](http://shadefinale.github.io/assignment_bootstrap_sprint/index.html)
