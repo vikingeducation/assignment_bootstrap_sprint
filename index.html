@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jumbotron Template</title>
+
+	<!-- One stylesheet is the bootstrap one, and one is a small one that I included myself. -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type"text/css" href="style.css">
+</head>
+<body>
+
+	<!-- Make a navbar, invert it from the regular default, fix it to the top of the screen at all times. -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<!-- These spans draw the lines inside the button -->
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- This is the "Project Name" on the left in the header. -->
+				<a href="#test" class="navbar-brand">Project Name</a>
+			</div>
+
+			<!-- This is appears to wrap the right portion of the navbar and is id'd to be controlled to collapse when the screen shrinks too much.-->
+			<div id="navbar" class="navbar-collapse collapse" aria-expanded="true" style="height: 1px;">
+				<!-- This is the actual right part of the navbar -->
+				<form class="navbar-form navbar-right">
+					<!-- We have two inputs, one for email, one for the password, and a button to submit. -->
+					<div class="form-group">
+						<input type="email" placeholder="Email" class="form-control"/>
+					</div>
+					<div class="form-group">
+						<input type="password" placeholder="Password" class="form-control"/>
+					</div>
+					<button type="submit" class="btn btn-success">Sign In</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<!-- This container holds the Hello world, text, and button. -->
+	<!-- Jumbotron enlarges the text and adds a darker background. -->
+	<div class="jumbotron">
+		<div class="container">
+			<!-- Since there's only really one large section, I guess we don't need rows or columns so I removed them just like in the example. -->
+			<h1> Hello, World! </h1>
+			<p> This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+			</p>
+			<button class="btn btn-primary btn-lg">Learn more »</button>
+		</div>
+	</div>
+
+	<!-- We use a second container that will go below the first -->
+	<div class="container">
+		<div class="row">
+			<!-- Three columns that stack when small -->
+			<article class="col-md-4">
+				<h2>Heading</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nemo, molestias quidem iusto accusamus sapiente eveniet obcaecati ab adipisci! Blanditiis recusandae, id impedit quis harum? Eos est dolores fuga? Quod.
+				</p>
+				<button class="btn btn-default">View Details »</button>
+			</article>
+
+			<article class="col-md-4">
+				<h2>Heading</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nemo, molestias quidem iusto accusamus sapiente eveniet obcaecati ab adipisci! Blanditiis recusandae, id impedit quis harum? Eos est dolores fuga? Quod.
+				</p>
+				<button class="btn btn-default">View Details »</button>
+			</article>
+
+			<article class="col-md-4">
+				<h2>Heading</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nemo, molestias quidem iusto accusamus sapiente eveniet obcaecati ab adipisci! Blanditiis recusandae, id impedit quis harum? Eos est dolores fuga? Quod.
+				</p>
+				<button class="btn btn-default">View Details »</button>
+			</article>
+		</div>
+
+
+		<!-- Placing the HR and the footer inside the container allows it to scale with the container. -->
+		<hr></hr>
+		<footer>
+			<h6>© Company 2015</h6>
+		</footer>
+	</div>
+
+	<!-- These scripts give functionality to the navbar button when collapsed. -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>
