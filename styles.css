@@ -1,0 +1,21 @@
+.headline {
+  background-color: #D8D8D8; }
+
+.articles {
+  height: 125px;
+  background-color: #fff; }
+
+.foot {
+  text-align: left; }
+
+.navbar {
+  color: #000; }
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px; }
+
+.columns {
+  padding-bottom: 10px; }
+
+/*# sourceMappingURL=styles.css.map */
