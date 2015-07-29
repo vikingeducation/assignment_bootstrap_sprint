@@ -19,14 +19,27 @@ $secondary: #449D44;
 
 	.navbar-toggle {
 		border-color: #444;
-	}
 
-	.icon-bar:before {
-		color: #fff;
+		&:hover,
+		&:focus {
+			background: #333;
+		}
+
+		.icon-bar {
+			background-color: #fff;
+		}
 	}
 
 	.navbar-collapse,
 	.navbar-form {
 		border-color: #111;
+	}
+}
+
+.navbar-default {
+	.navbar-toggle {
+		.icon-bar {
+			
+		}
 	}
 }

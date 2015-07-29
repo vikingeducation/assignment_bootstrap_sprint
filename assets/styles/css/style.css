@@ -11,8 +11,10 @@
       background: #357935; }
   #navbar .navbar-toggle {
     border-color: #444; }
-  #navbar .icon-bar:before {
-    color: #fff; }
+    #navbar .navbar-toggle:hover, #navbar .navbar-toggle:focus {
+      background: #333; }
+    #navbar .navbar-toggle .icon-bar {
+      background-color: #fff; }
   #navbar .navbar-collapse,
   #navbar .navbar-form {
     border-color: #111; }
