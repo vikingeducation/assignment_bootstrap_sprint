@@ -1,0 +1,32 @@
+/* style */
+
+$secondary: #449D44;
+
+#navbar {
+	color: #ddd;
+	background: #222;
+	margin-bottom: 0;
+
+	button.btn {
+		border: none;
+		background: $secondary;
+		color: #fff;
+
+		&:hover {
+			background: darken($secondary, 10%);
+		}
+	}
+
+	.navbar-toggle {
+		border-color: #444;
+	}
+
+	.icon-bar:before {
+		color: #fff;
+	}
+
+	.navbar-collapse,
+	.navbar-form {
+		border-color: #111;
+	}
+}

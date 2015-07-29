@@ -1,0 +1,20 @@
+/* style */
+#navbar {
+  color: #ddd;
+  background: #222;
+  margin-bottom: 0; }
+  #navbar button.btn {
+    border: none;
+    background: #449D44;
+    color: #fff; }
+    #navbar button.btn:hover {
+      background: #357935; }
+  #navbar .navbar-toggle {
+    border-color: #444; }
+  #navbar .icon-bar:before {
+    color: #fff; }
+  #navbar .navbar-collapse,
+  #navbar .navbar-form {
+    border-color: #111; }
+
+/*# sourceMappingURL=style.css.map */
