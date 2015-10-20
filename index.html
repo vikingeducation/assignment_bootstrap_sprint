@@ -39,6 +39,7 @@ Double check that resizing the screen triggers similar breakpoints as in the exa
   </head>
 
   <body>
+    <!--The navbar/sign in form at the very top of the screen-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -62,8 +63,9 @@ Double check that resizing the screen triggers similar breakpoints as in the exa
           </form>
         </div><!--/.navbar-collapse -->
       </div>
-    </nav>
+    </nav><!--end navbar-->
 
+    <!--the header/jumbotron-had to place a container inside to get the right width-->
     <header class="jumbotron">
       <section class="container">
         <h1>Hello, world!</h1>
@@ -74,35 +76,44 @@ Double check that resizing the screen triggers similar breakpoints as in the exa
       </section>
     </header>
 
+    <!--The main container which holds the columns and rows of the three articles-->
     <main class="container">
+      <!--row holds the three articles-->
       <section class="row">
+        <!--each article is a column which takes up one third of the space-->
         <article class="col-md-4">
           <h2>Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-          <form>
+          <p>
             <input class="btn btn-default" type="button" value="View details »">
-          </form>
+          </p>
         </article>
         <article class="col-md-4">
           <h2>Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-          <form>
+          <p>
             <input class="btn btn-default" type="button" value="View details »">
-          </form>
+          </p>
         </article>
         <article class="col-md-4">
           <h2>Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-          <form>
+          <p>
             <input class="btn btn-default" type="button" value="View details »">
-          </form>
+          </p>
         </article>
-      </section>
-      <hr>
-      <footer>
+      </section><!--end row of articles-->
+    </main><!--end main container-->
+
+    <!--a "horizontal rule" break to match the example-->
+    <hr>
+
+    <!--the footer for copyright info-->
+    <footer>
+      <section class="container">
         <p>&#169; Company 2014</p>
-      </footer>
-    </main>
+      </section>
+    </footer>
 
   </body>
 </html>
