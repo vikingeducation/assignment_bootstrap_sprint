@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 
+<!--
+Your job is to create a clone of the Bootstrap Jumbotron Template Page -- but also using semantic HTML5 tags and SASS.
+
+Build the structure for the Jumbotron page using good HTML5 semantic tags.
+
+Add styling using Bootstrap's classes. You shouldn't need more than a couple of additional styles -- almost the entire page was built in Bootstrap (they added literally 2 extra styles to push the <body> down). Warning: The navbar is the most difficult part, so don't get discouraged when it's a pain.
+
+Double check that resizing the screen triggers similar breakpoints as in the example.
+-->
+
 <html>
   <head>
     <title>Bootstrap Sprint</title>
@@ -28,40 +38,44 @@
   </head>
 
   <body>
-    <nav class="top-bar">
-      <p id="nav-bar-title">Project Name</p>
-      <form id="sign-in-form">
-        <input type="email" name="email">
-        <input type="password" name="password">
-        <input type="submit" name="sign in button" value="Sign In">
-      </form>
+    <nav class="container top-bar">
+      <div class="row">
+        <p class="col-md-2" id="nav-bar-title">Project Name</p>
+        <form class="col-md-5 col-md-offset-5" id="sign-in-form">
+          <div class="row">
+            <input type="email" name="email">
+            <input type="password" name="password">
+            <input type="submit" name="sign in button" value="Sign In">
+          </div>
+        </form>
+      </div>
     </nav>
 
-    <main>
-      <header>
-        <h1>Hello World!</h1>
+    <main class="container">
+      <header class="row">
+        <h1 class="col-md-12">Hello World!</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <form>
           <input type="button" value="Learn More >>">
         </form>
       </header>
 
-      <section>
-        <article>
+      <section class="row">
+        <article class="col-md-4">
           <h2>Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
           <form>
             <input type="button" value="View Details >>">
           </form>
         </article>
-        <article>
+        <article class="col-md-4">
           <h2>Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
           <form>
             <input type="button" value="View Details >>">
           </form>
         </article>
-        <article>
+        <article class="col-md-4">
           <h2>Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
           <form>
