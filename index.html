@@ -18,31 +18,76 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-inverse">
+  <!-- Navbar -->
+    <nav class="navbar navbar-inverse" role="navigation">
+    <!-- Navbar Container -->
       <div class="container">
-        <div class="row">
-          <a class="navbar-brand">
-            Project name
-          </a>
-          <form class="navbar-form navbar-right" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email">
-              <input type="text" class="form-control" placeholder="Password">
-            </div>
-            <button type="submit" class="btn btn-success">Sign In</button>
-          </form>
+        <div class="navbar-header">
+        
+        <!-- Brand Logo -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Project name</a>
         </div>
+
+          <!-- Input Form with sign in -->
+        <form class="navbar-form navbar-right" role="search">
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <input type="text" class="form-control" placeholder="Email">
+            <input type="text" class="form-control" placeholder="Password">
+            <button type="submit" class="btn btn-success">Sign In</button>
+          </div>
+        </form>
       </div>
     </nav>
 
     <main>
+    <!-- Jumbotron -->
       <div class="jumbotron">
         <div class="container">
+        <!-- heading -->
           <h1>Hello, World!</h1>
+          <!-- paragraph content -->
           <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+          <!-- CTA -->
           <p><a class="btn btn-primary btn-lg">Learn more >></a></p>
         </div>
       </div>
+
+      <div class="container">
+      <!-- 1st column -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <a class="btn btn-default">View details >></a>
+        </div>
+        <!-- 2nd column -->
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <a class="btn btn-default">View details >></a>
+        </div>
+        <!-- 3rd column -->
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <a class="btn btn-default">View details >></a>
+        </div>
+      </div>
+        
+      </div>
+      <!-- footer -->
+      <footer class="container">
+        <div style="margin: 15px 0; border: 1px solid #eee">
+        </div>
+            <p>&copy Company 2014</p>
+      </footer>
+    </main>
 
 
 
