@@ -1,5 +1,6 @@
 assignment_bootstrap_sprint
 ===========================
+By Steven Chang
 
 Pick yourself up!
 
