@@ -1,0 +1,31 @@
+.topnav {
+  background: #111;
+  border: none;
+  border-radius: 0;
+  position: fixed;
+  z-index: 1; }
+  .topnav .navbar-brand:hover {
+    color: #fff; }
+  .topnav li {
+    padding: 8px 5px 0 5px; }
+  .topnav ul {
+    padding-right: 20px; }
+
+.jumbotron {
+  background: #eee; }
+  .jumbotron h1 {
+    font-size: 60px;
+    padding-top: 20px; }
+  .jumbotron p {
+    font-size: 20px; }
+
+article {
+  padding-bottom: 20px; }
+
+footer {
+  border-top: 1px solid #eee; }
+  footer h4 {
+    font-size: 12px;
+    padding: 10px 0; }
+
+/*# sourceMappingURL=styles.css.map */

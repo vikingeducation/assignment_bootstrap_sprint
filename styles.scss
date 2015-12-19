@@ -1,0 +1,47 @@
+.topnav {
+  background: #111;
+  border: none;
+  border-radius: 0;
+  position: fixed;
+  z-index: 1;
+
+  .navbar-brand:hover {
+    color: #fff;
+  }
+
+  li {
+    padding: 8px 5px 0 5px;
+  }
+
+  ul {
+    padding-right: 20px;
+  }
+}
+
+
+
+.jumbotron {
+  background: #eee;
+
+  h1 {
+    font-size: 60px;
+    padding-top: 20px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+article {
+  padding-bottom: 20px;
+}
+
+footer {
+  border-top: 1px solid #eee;
+  
+  h4 {
+    font-size: 12px;
+    padding: 10px 0;
+  }
+}
