@@ -1,0 +1,3 @@
+# git Ignore sass-cache
+
+.sass-cache
