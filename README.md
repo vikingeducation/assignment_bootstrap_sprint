@@ -1,4 +1,4 @@
-assignment_bootstrap_sprint
+Philip Johnson's assignment_bootstrap_sprint
 ===========================
 
 Pick yourself up!
