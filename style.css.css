@@ -1,0 +1,14 @@
+nav, .navbar-default, .jumbotron, .row {
+  margin-bottom: 0;
+  padding-right: 150px;
+  padding-left: 150px; }
+
+.thumbnail {
+  margin-top: 30px;
+  border: 0; }
+
+.empty {
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=style.css.css.map */
