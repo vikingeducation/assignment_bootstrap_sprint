@@ -4,6 +4,16 @@ nav, .navbar-default, .jumbotron, .row {
   padding-left: 150px;
 }
 
+.navbar-default {
+  background-color: black;
+  border: none;
+  button {
+    background-color: MediumSeaGreen;
+    border: none;
+    color: white;
+  }
+}
+
 .thumbnail {
   margin-top: 30px;
   border: 0;
