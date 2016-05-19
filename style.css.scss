@@ -1,0 +1,26 @@
+nav, .navbar-default, .jumbotron, .row {
+  margin-bottom: 0;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.navbar-default {
+  background-color: black;
+  border: none;
+  button {
+    background-color: MediumSeaGreen;
+    border: none;
+    color: white;
+  }
+}
+
+.thumbnail {
+  margin-top: 30px;
+  border: 0;
+}
+
+.empty {
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 10px;
+}
+
