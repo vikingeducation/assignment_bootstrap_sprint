@@ -13,7 +13,7 @@
 </head>
 <body>
   <!--navbar-->
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -29,9 +29,11 @@
 <form class="navbar-form navbar-right" role="sign-in">
     <div class="form-group">
       <input type="email" class="form-control" placeholder="Email">
-      <input type="text" class="form-control" placeholder="Password">
     </div>
-    <button type="submit" class="btn btn-default btn-success">Sign In</button>
+    <div class="form-group">
+      <input type="password" class="form-control" placeholder="Password">
+    </div>
+    <button type="submit" class="btn btn-success">Sign In</button>
   </form>
 </div>
 </nav>
@@ -46,9 +48,8 @@
 </header>
 
 <!--bottom articles-->
-<div class="container-fluid">
-  <div class="row">
-    <section id="posts" class="col-md-10 col-md-offset-1">
+<div class="container">
+  <section class="row">
       <article class="col-md-4">
         <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
@@ -64,12 +65,12 @@
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
         <p><a class="btn btn-default" href="#" role="button">View Details >></a></p></article>
     </section>
-  </div>
-</div>
-
+<hr>
 <!--footer-->
-<footer></footer>
-
+    <footer>
+    <p>&copy; 2015 Company, Inc.</p>
+    </footer>
+</div>
 
 </body>
 </html>
