@@ -1,3 +1,10 @@
+
+This repository contains a recreation of a Bootstrap template.
+
+Highlights:
+
+  * Bootstrap
+
 assignment_bootstrap_sprint
 ===========================
 
