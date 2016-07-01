@@ -11,7 +11,7 @@
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <link rel="stylesheet" src="styles.css">
+    <link rel="stylesheet" href="styles.css">
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -27,7 +27,101 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header class="navbar navbar-inverse navbar-fixed-top" id="site-header">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Bootstrap Sprint</a>
+          </div>
+          <nav>
+            <form class="navbar-form navbar-right">
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-success">Sign in</button>
+            </form>
+          </nav>
+        </div>
+    </header>
+    <main>
+      <section class="jumbotron">
+        <div class="container">
+          <h1>Hello, world!</h1>
+          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+          <p>
+            <a href="#" class="btn btn-lg btn-primary" role="button">Learn more &raquo; </a>
+          </p>
+        </div>
+      </section>
 
+      <section class="container">
+        <div class="row">
+          <article class="post col-xs-4">
+            <header class="post-title">
+              <h2>Lorem Ipsum</h2>
+            </header>
+            <div class="post-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit in, possimus molestiae nihil quod amet error laboriosam dolor porro nesciunt hic laudantium fuga unde totam mollitia obcaecati tempora vel repellendus?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit in, possimus molestiae nihil quod amet error laboriosam dolor porro nesciunt hic laudantium fuga unde totam mollitia obcaecati tempora vel repellendus?
+              </p>
+              <p>
+                <a href="#" class="btn btn-default">View details &raquo;</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="post col-xs-4">
+            <header class="post-title">
+              <h2>Lorem Ipsum</h2>
+            </header>
+            <div class="post-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit in, possimus molestiae nihil quod amet error laboriosam dolor porro nesciunt hic laudantium fuga unde totam mollitia obcaecati tempora vel repellendus?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit in, possimus molestiae nihil quod amet error laboriosam dolor porro nesciunt hic laudantium fuga unde totam mollitia obcaecati tempora vel repellendus?
+              </p>
+              <p>
+                <a href="#" class="btn btn-default">View details &raquo;</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="post col-xs-4">
+            <header class="post-title">
+              <h2>Lorem Ipsum</h2>
+            </header>
+            <div class="post-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit in, possimus molestiae nihil quod amet error laboriosam dolor porro nesciunt hic laudantium fuga unde totam mollitia obcaecati tempora vel repellendus?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit in, possimus molestiae nihil quod amet error laboriosam dolor porro nesciunt hic laudantium fuga unde totam mollitia obcaecati tempora vel repellendus?
+              </p>
+              <p>
+                <a href="#" class="btn btn-default">View details &raquo;</a>
+              </p>
+            </div>
+          </article>
+        </div>
+        <hr>
+      </section>
+    </main>
+    <footer id="site-footer">
+      <div class="container">
+        <p>&copy; 2016 Company, Inc.</p>
+      </div>
+    </footer>
   </body>
 </html>
