@@ -8,6 +8,4 @@ Pick yourself up!
 
 Kenny Kottenstette
 
-my notes: 
-&raquo
     
