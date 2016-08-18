@@ -1,5 +1,6 @@
 assignment_bootstrap_sprint
 ===========================
+Tim Scott's version of the Bootstrap example site.
 
 Pick yourself up!
 
