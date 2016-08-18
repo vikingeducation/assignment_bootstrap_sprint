@@ -1,0 +1,125 @@
+/* bootstrap sprint */
+body {
+  font-family: "Helvetica-Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  /* from bootstrap.min.css.5 */ }
+
+/* header bar */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  /* (from jumbotron.css.2)
+      "move down content because
+      fixed navbar is 50px tall" */ }
+
+.topnav {
+  display: inline-block;
+  width: 1520px;
+  height: 51px;
+  background-color: black; }
+
+.project-name {
+  color: #D3D3D3;
+  /*-- gray */
+  margin-left: 150px;
+  margin-right: 500px;
+  line-height: 20px;
+  font-size: 20px; }
+
+.project-name:hover {
+  color: white; }
+
+.email-input-container {
+  display: inline-block;
+  height: 40px;
+  width: 350px;
+  line-height: 20 px;
+  border-radius: 5px; }
+
+label {
+  padding: 10px;
+  width: 150px; }
+
+button {
+  color: white;
+  padding: 10px;
+  width: 30px;
+  background-color: #5cb85c;
+  /* green */ }
+
+/* main, wide title */
+.header-container {
+  height: 970;
+  width: 265;
+  margin: auto;
+  padding: 15px; }
+
+h1 {
+  font-size: 63px;
+  line-height: 69px;
+  padding: 10px; }
+
+p {
+  font-size: 21px;
+  line-height: 30px;
+  margin-bottom: 15px; }
+
+.btn-primary {
+  border-top: 20px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 5px;
+  background-color: #337ab7;
+  /* blue */ }
+
+.paragraph-container {
+  width: 970px;
+  height: 307px;
+  padding: 0 15px;
+  margin: auto; }
+
+.row {
+  display: inline-block;
+  margin: 0 -15px; }
+
+.col-md-4 {
+  display: inline-block;
+  position: relative;
+  min-height: 1px;
+  padding: 0 15px; }
+
+@media (min-width: 992px) {
+  .col-md-4 {
+    width: 31%; } }
+@media (max-width: 992px) {
+  .col-sm-4 {
+    width: 31%; } }
+h2 {
+  margin-bottom: 10px;
+  font-size: 30px; }
+
+p {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 10px; }
+
+.btn-default {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: none;
+  margin-bottom: 10px; }
+
+footer {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px; }
+
+/*# sourceMappingURL=bootstrap.css.map */
