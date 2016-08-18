@@ -21,7 +21,7 @@ body {
   background-color: black; }
 
 .project-name {
-  color: #86868682;
+  color: #D3D3D3;
   /*-- gray */
   margin-left: 150px;
   margin-right: 500px;
@@ -96,7 +96,6 @@ p {
 @media (max-width: 992px) {
   .col-sm-4 {
     width: 31%; } }
-    
 h2 {
   margin-bottom: 10px;
   font-size: 30px; }

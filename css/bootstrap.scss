@@ -26,10 +26,10 @@ body {
 }
 
 .project-name {
-  color: #D3D3D3;  /*-- gray */
-
+  color: #86868682;  /*-- gray */
+  display: inline-block;
   margin-left: 150px;
-  margin-right: 500px;
+  margin-right: 300px;
   line-height: 20px;
   font-size: 20px;
 }
@@ -47,14 +47,15 @@ body {
 }
 
 label {
-  padding: 10px;
+  padding: 25px;
   width: 150px;
 }
 
 button {
+  margin: 10px;
   color: white;
   padding: 10px;
-  width: 30px;
+  width: 300px;
   background-color: #5cb85c;  /* green */
 }
 
@@ -74,7 +75,7 @@ h1 {
 }
 
 p {
-  font-size: 21px;
+  font-size: 200px;
   line-height: 30px;
   margin-bottom: 15px;
 }
