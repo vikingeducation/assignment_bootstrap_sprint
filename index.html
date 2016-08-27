@@ -27,29 +27,31 @@
   </head>
   <body>
   
-
-
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">Project name</a>
-      </div>
-      <div class="navbar-right">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <a class="navbar-brand" href="#">
+          Project name
+        </a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sign-in-form" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <form class="navbar-form active">
-          <div class="form-group">
+      </div>
+
+      <div class="navbar-right">
+        <div class="collapse navbar-collapse" id="sign-in-form">
+          <form class="navbar-form active">
+            <div class="form-group">
             <input type="email" class="form-control" placeholder="Email">
             <input type="text" class="form-control" placeholder="Password">
+            <button type="submit" class="btn btn-success">Sign in</button>
           </div>
-          <button type="submit" class="btn btn-success">Sign in</button>
         </form>
       </div>
+    </div>
     </div>
   </nav>
 
@@ -68,11 +70,11 @@
   <main class="container">
   <div class="row">
 
-    <article class="col-md-4 col-md-offset-1">
+    <article class="col-md-4">
       <header>
-        <h1>
+        <h2>
           Heading
-        </h1>
+        </h2>
       </header>
       <p>
         Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
@@ -84,9 +86,9 @@
 
     <article class="col-md-4">
       <header>
-        <h1>
+        <h2>
           Heading
-        </h1>
+        </h2>
       </header>
       <p>
         Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
@@ -98,9 +100,9 @@
 
     <article class="col-md-4">
       <header>
-        <h1>
+        <h2>
           Heading
-        </h1>
+        </h2>
       </header>
       <p>
         Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
@@ -114,8 +116,10 @@
   </main>
 
 
-  <footer>
-    
+  <footer class="panel panel-default">
+      <div class="panel-body container">
+        2016 Company, Inc
+      </div>
   </footer>
 
   </body>
