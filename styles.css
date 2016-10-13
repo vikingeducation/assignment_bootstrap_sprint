@@ -1,16 +1,8 @@
 /*********************************************/
-/* Mixins */
-/*********************************************/
-/*********************************************/
 /* Styles */
 /*********************************************/
-.navbar {
-  border-radius: 0px; }
-
-.jumbotron {
-  height: 360px;
-  -webkit-transform: translate(0, -20px);
-  -ms-transform: translate(0, -20px);
-  transform: translate(0, -20px); }
+body {
+  padding-top: 50px;
+  padding-bottom: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
