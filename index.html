@@ -7,11 +7,11 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Jumbotron Assignment</title>
 
+    <!-- custom css -->
+    <link rel="stylesheet" media="screen and (min-width: 990px)"type="text/css" href="styles.css">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -49,18 +49,20 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-  <div class="container">
-    <!-- Jumbotron -->
+  <!-- Jumbotron -->
+  <header>
     <div class="jumbotron">
-      <h1>Hello, world!</h1>
-      <p>I'm not sure if there's a point to this story. But I'm going to tell it again. So many other people try to tell the tale. Not one of them knows the end</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      <div class="container">
+        <h1>Hello, world!</h1>
+        <p>I'm not sure if there's a point to this story. But I'm going to tell it again. So many other people try to tell the tale. Not one of them knows the end</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
     </div>
-  </div>
+  </header>
 
-  <div class="container">
+  <section class="container">
     <div class="row">
-      <div class="col-xs6 col-lg-4">
+      <article class="col-xs6 col-lg-4">
         <h2>Heading</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -72,8 +74,8 @@
         <p>
         <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
         </p>
-      </div>
-      <div class="col-xs6 col-lg-4">
+      </article>
+      <article class="col-xs6 col-lg-4">
         <h2>Heading</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -85,8 +87,8 @@
         <p>
         <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
         </p>
-      </div>
-      <div class="col-xs6 col-lg-4">
+      </article>
+      <article class="col-xs6 col-lg-4">
         <h2>Heading</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -98,8 +100,13 @@
         <p>
         <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
         </p>
-      </div>
-  </div>
+      </article>
+
+      <footer>
+        <p>© 2016 Company, Inc.</p>
+      </footer>
+    </div>
+  </section>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
