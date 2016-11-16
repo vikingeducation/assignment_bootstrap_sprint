@@ -2,18 +2,4 @@ body {
   padding-top: 50px;
   padding-bottom: 20px; }
 
-.banner {
-  background-color: #eee;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  margin-bottom: 30px; }
-  .banner h1 {
-    font-size: 64px; }
-  .banner p {
-    font-size: 20px;
-    line-height: 1.5em;
-    margin-bottom: 15px; }
-  .banner a {
-    font-size: 18px; }
-
 /*# sourceMappingURL=styles.css.map */

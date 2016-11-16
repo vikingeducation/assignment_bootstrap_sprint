@@ -11,21 +11,40 @@
   <!-- Navbar -->
   <nav class="navbar navbar-fixed-top navbar-inverse">
     <div class="container">
+
       <div class="navbar-header">
+
+        <!-- Header Title -->
         <a class="navbar-brand">Project name</a>
+
+        <!-- Burger button -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#login-form">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
       </div>
-      <form class="navbar-form navbar-right">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Email">
-          <input type="text" class="form-control" placeholder="Password">
-        </div>
-        <button type="submit" class="btn btn-success">Sign In</button>
-      </form>
+
+      <!-- Collapsing Menu -->
+      <div id="login-form" class="navbar-collapse collapse">
+        <form class="navbar-form navbar-right">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-success">Sign In</button>
+        </form>
+      </div>
+
     </div>
   </nav>
 
   <!-- Banner -->
-  <section class="banner">
+  <section class="jumbotron">
     <div class="container">
       <h1>Hello, space!</h1>
       <p>As a patch of light cosmic fugue radio telescope network of wormholes! Star stuff harvesting star light birth the carbon in our apple pies rich in mystery at the edge of forever finite but unbounded the carbon in our apple pies.</p>
