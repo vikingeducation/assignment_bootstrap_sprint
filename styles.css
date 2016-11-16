@@ -5,7 +5,8 @@ body {
 .banner {
   background-color: #eee;
   padding-top: 48px;
-  padding-bottom: 80px; }
+  padding-bottom: 48px;
+  margin-bottom: 30px; }
   .banner h1 {
     font-size: 64px; }
   .banner p {
