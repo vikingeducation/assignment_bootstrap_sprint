@@ -14,23 +14,16 @@
 
     <!-- Project CSS -->
     <link rel="stylesheet" type="text/css" href="styles.css">
-
   </head>
   
   <body>
-    
-
-
-
-
-
     <!-- Navigation Code Block -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-
           <a  class="navbar-brand" href="#">Project Name</a>
 
+          <!-- Create Accordian Code -->
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -38,80 +31,101 @@
             <span class="icon-bar"></span>
           </button>
 
-
         </div>
 
-
+        <!-- Create the Collapsable Navigation Items -->
         <div class="collapse navbar-collapse" id="myNavbar">
          
          <form class="navbar-form navbar-right">
           <div class="form-group">
             <input type="email" class ="form-control" name="email" placeholder="Email">
-            <input type="password" class ="form-control" name="password" placeholder="Password">        <button class="btn btn-success" type="submit"> Sign In </button>
+            <input type="password" class ="form-control" name="password" placeholder="Password">        
+            <button class="btn btn-success" type="submit"> Sign In </button>
           </div>
          </form>
 
        </div>
       </div>
-    </nav>
+    </nav>  <!-- Comeplete Navigation Block -->
+
+
 
     <main>
+
+      <!-- Create Jumbotron Section -->
       <div class="jumbotron">
-       <div class="container">
+        <div class="container">
           <h1>Hello, world!</h1>
           <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
           <button class="btn btn-primary btn-lg">Learn More >></button>
+        </div>
+       </div>
 
-      </div>
-  </div>
 
-
+       <!-- Container for Content and Footer Rows/Columns -->
       <div class="container">
 
-        <!-- First Content Summary -->
-        <aside>
-          <h2> Heading</h2>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
-          <button class="btn btn-default">View Details >></button>
-        </aside>
+        <!-- Content Summary Row -->
+        <div class="row">
 
-        <!-- Second Content Summary -->
-        <aside>
-          <h2> Heading</h2>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
-          <button class="btn btn-default">View Details >></button>
-        </aside>
+         <!-- First Content Summary -->
+          <div class="col-md-4">
+            <aside>     
+              <h2> Heading</h2>
+              <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <button class="btn btn-default">View Details >></button>
+            </aside>
+          </div>
 
-        <!-- Third Content Summary -->
-        <aside>
-          <h2> Heading</h2>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
-          <button class="btn btn-default">View Details >></button>
-        </aside>
-      
-        <footer>  
-          <p> <span class="glyphicon glyphicon-copyright-mark"> </span> 2016 Company, Inc.</p>
-        </footer>
+          
+           <!-- Second Content Summary -->
+           <div class="col-md-4">
+            <aside>     
+              <h2> Heading</h2>
+              <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <button class="btn btn-default">View Details >></button>
+            </aside>
+          </div>
 
-      </div>
+
+           <!-- Third Content Summary -->
+          <div class="col-md-4">
+            <aside>     
+              <h2> Heading</h2>
+              <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <button class="btn btn-default">View Details >></button>
+            </aside>
+          </div>
+
+        </div>  <!-- End Content Row -->
+
+
+          <!-- Begin Footer Rows -->
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-12">
+            <footer>  
+              <p> <span class="glyphicon glyphicon-copyright-mark"> </span> 2016 Company, Inc.</p>
+            </footer>
+          </div>
+        </div>
+
+
+      </div>  <!-- End Content and Footer Rows -->
 
     </main>
-
-
-
-
-
-
-
-
-
-
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
