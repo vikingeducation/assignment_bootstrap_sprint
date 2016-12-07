@@ -23,19 +23,31 @@
   <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
     <div class="container">
       <div class="row">
+
+        <!--Toggle Button for Collapsed Form-->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-signin-form">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <!--Brand Name-->
         <a class="navbar-brand" href="#">Project Name</a>
 
-      <form class="navbar-form navbar-right" role="Sign In">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Email">
-          </div>
+        <!--Sign In Form-->
+        <section class="collapse navbar-collapse" id="nav-signin-form">
+        <form class="navbar-form navbar-right" role="Sign In">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
 
-          <div class="form-group">
-            <input type="password" class="form-control" placeholder="Password">
-          </div>
-
-          <button type="button" class="btn btn-success navbar-btn">Sign in</button>
-      </form>
+            <div class="form-group">
+              <input type="password" class="form-control" placeholder="Password">
+            </div>
+            <button type="button" class="btn btn-success navbar-btn">Sign in</button>
+        </section>
+        </form>
+        <!--End Sign In Form Collapse-->
       </div>
     </div>
   </nav>
@@ -52,11 +64,13 @@
     </div>
   </div>
 
+  <main>
+
   <section class = "container">
 
     <div class="row">
       <article class = "col-md-4">
-        <h1>Heading</h1>
+        <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
         <p>
           <a class="btn btn-default" href="#" role="button">View details »</a>
@@ -65,7 +79,7 @@
 
 
       <article class = "col-md-4">
-        <h1>Heading</h1>
+        <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
         <p>
           <a class="btn btn-default" href="#" role="button">View details »</a>
@@ -74,7 +88,7 @@
 
 
       <article class = "col-md-4">
-        <h1>Heading</h1>
+        <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
         <p>
           <a class="btn btn-default" href="#" role="button">View details »</a>
@@ -83,11 +97,14 @@
 
     </div>
 
-
     <hr>
+
+    <footer>
+      <p>© 2016 Company, Inc.</p>
+    </footer>
   </section>
 
-
+</main> 
 
 
 
