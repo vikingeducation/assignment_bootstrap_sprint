@@ -17,3 +17,14 @@ button.btn {
 	background-color: #449D44;
 	border-color: #449D44;
 }
+
+button.btn.view {
+	color: black;
+	background-color: none;
+	border-color: black;
+
+}
+
+div.container {
+	z-index: -1;
+}
