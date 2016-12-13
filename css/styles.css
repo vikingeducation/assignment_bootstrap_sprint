@@ -1,13 +1,5 @@
 body {
   padding-top: 50px;
-  padding-bottom: 20px;
-  height: 1000px; }
-
-nav.navbar {
-  background-color: #222222;
-  top: 0;
-  position: fixed;
-  width: 100%;
-  border-radius: 0; }
+  padding-bottom: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
