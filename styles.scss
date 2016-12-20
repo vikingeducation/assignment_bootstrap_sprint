@@ -1,0 +1,14 @@
+body{
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.jumbotron{
+		.container{
+			margin-left: -15px;
+		}
+	}
+}
+
+
