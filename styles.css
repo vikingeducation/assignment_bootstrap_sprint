@@ -1,19 +1,12 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px; }
+
 #top-nav {
-  background-color: #222;
   border: 0;
   border-radius: 0; }
 
-#top-nav a {
-  margin-left: 200px;
-  color: #aaa; }
-
-#top-nav a:hover {
-  color: #fff; }
-
-.form-group {
-  margin-left: 535px; }
-
 .jumbotron {
-  padding: 100px 230px 50px 230px; }
+  padding: 50px 230px 50px 230px; }
 
 /*# sourceMappingURL=styles.css.map */
