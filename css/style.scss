@@ -1,0 +1,239 @@
+@import 'color';
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: Helvetica;
+  color: #333;
+}
+
+main {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: $main_bg;
+  margin-bottom: 30px;
+    p {
+      margin-bottom: 15px;
+      line-height: 1.43;
+      font-size: 21px;
+      font-weight: 200;
+      color: $main_p;
+    }
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+hr {
+  clear:both;
+  padding-top: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid $hr;
+}
+
+footer {
+  p {
+    margin: 0 0 10px;
+    margin-left: 48px;
+  }
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8ps;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: $nav_tog_bg;
+  border-color: $nav_tog_bor;
+}
+
+.sr-only {
+  position:absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.icon-bar {
+  background-color: $icon_bar_tog;
+  margin-top: 4px;
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.navbar-inverse {
+  background-color: $nav_bg;
+  border-color: $nav_bor;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  display: block;
+}
+
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow: visible;
+  border-top: 1px solid transparent;
+}
+
+.collapse {
+  display: none;
+}
+
+.container {
+  padding-right: 65px;
+  padding-left: 65px;
+}
+
+.navbar-header {
+  float: left;
+  height: 50px;
+  width: auto;
+}
+
+.navbar-brand {
+  color: $navbar_brand;
+  float: left;
+  height: 20px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+   &:hover {
+     color: $navbar_brand_hov;
+   }
+}
+
+.navbar-form {
+  border-color: $navbar_form_bor;
+  float:right;
+  width: auto;
+  padding: 10px 15px;
+  margin-left: 0;
+  border: 0;
+  //height: 30px;
+}
+.form-group {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+.form-control {
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.43;
+  color: $form;
+  background-color: $form_bg;
+  border: 1px solid $form_bor;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+.btn-success {
+  display: inline-block;
+  color: $form_btn;
+  background-color: $form_btn_bg;
+  border-color: $form_btn_bor;
+  line-height: 1.43;
+  padding: 6px 12px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  text-decoration: none;
+    &:hover {
+      background-color: $form_btn_bg_hov;
+      border-color: $form_btn_bor_hov;
+    }
+}
+
+.btn-primary {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+  color: $btn_primary;
+  background-color: $btn_primary_bg;
+  border-color: $btn_primary_bor;
+  text-align: center;
+  vertical-align: middle;
+    &:hover {
+      background-color: $btn_primary_bg_hov;
+      border-color: $btn_primary_bor_hov;
+    }
+}
+
+.row {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.col-md-4 {
+  padding-left: 15px;
+  padding-right: 15px;
+    p {
+      color: $article_text;
+      font-size: 14px;
+      line-height: 1.43;
+    }
+}
+
+.btn-default {
+  display: inline-block;
+  color: $article_btn;
+  background-color: $article_btn_bg;
+  border: 1px solid  $article_btn_bor;
+  border-radius: 4px;
+  line-height: 1.43;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+    &:hover {
+      background-color: $article_btn_bg_hov;
+      border-color: $article_btn_bor_hov;
+    }
+}
+
+@media screen and  (min-width: 768px) {
+  h1 {
+    font-size: 63px;
+  }
+  .col-md-4 {
+    float: left;
+    width: 30%;
+  }
+}
