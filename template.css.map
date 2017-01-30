@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAQ;EACP,MAAM,EAAE,CAAC;;AAGV,UAAW;EACV,WAAW,EAAE,CAAC;EACd,cAAc,EAAE,IAAI;;AAGrB,EAAG;EACF,UAAU,EAAE,IAAI;;AAGjB,EAAG;EACF,UAAU,EAAE,IAAI;;AAGjB,aAAc;EACb,WAAW,EAAE,GAAG",
+"sources": ["boot.scss"],
+"names": [],
+"file": "template.css"
+}
