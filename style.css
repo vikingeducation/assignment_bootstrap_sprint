@@ -1,0 +1,22 @@
+* {
+  outline: 1px soild gray; }
+
+.jumbotron {
+  padding-left: 2.5em;
+  padding-right: 2.5em; }
+
+nav.navbar-inverse {
+  margin-bottom: 0; }
+
+hr {
+  color: aaa;
+  margin: 2em auto; }
+
+footer {
+  float: left; }
+
+@media (max-width: 767px) {
+  #nav-menu .navbar-form input {
+    margin-bottom: 5px; } }
+
+/*# sourceMappingURL=style.css.map */
