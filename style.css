@@ -1,3 +1,6 @@
+* {
+  outline: 1px soild gray; }
+
 .jumbotron {
   padding-left: 2.5em;
   padding-right: 2.5em; }
@@ -11,5 +14,9 @@ hr {
 
 footer {
   float: left; }
+
+@media (max-width: 767px) {
+  #nav-menu .navbar-form input {
+    margin-bottom: 5px; } }
 
 /*# sourceMappingURL=style.css.map */
