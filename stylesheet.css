@@ -1,11 +1,5 @@
-nav .btn {
-  background-color: #5cb85c;
-  text-color: white; }
-
-.main-panel {
-  background-color: #eee; }
-
-.blog-area {
-  background-color: white; }
+.jumbotron {
+  padding-top: 100px;
+  padding-bottom: 40px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
