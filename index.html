@@ -13,7 +13,7 @@
   <body>
 
     <!-- top nav bar -->
-    <nav class="fixed-nav-bar">
+    <nav class="navbar fixed-top fixed-nav-bar">
       <div class="container">
         <div>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -22,17 +22,19 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="col-xs-2" href="#">Project Name</a>
+          <a class="navbar-brand" href="#">Project Name</a>
         </div>
           <div class="navbar-collapse collapse">
-          <form class="login-form">
-            <div class="form-input">
-              <input class="col-xs-2 col-xs-offset-5" type="text" placeholder="Email">
+          <form class="login-form form-inline">
+            <div class="form-group col-xs-offset-5">
+              <label class="sr-only" for="input-email">email address</label>
+              <input class="form-control" id="input-email" type="text" placeholder="Email">
             </div>
-            <div class="form-input">
-              <input class="col-xs-2" type="text" placeholder="Password">
+            <div class="form-group">
+              <label class="sr-only" for="input-password">password</label>
+              <input class="form-control" id="input-password" type="password" placeholder="Password">
             </div>
-            <button class="btn sign-in-btn" type="submit">Sign In</button>
+            <button class="btn sign-in-btn btn-sucess" type="submit">Sign In</button>
           </form>
         </div>
       </div>
@@ -45,13 +47,13 @@
 
         <div class="container">
           <div class="row">
-            <h1 class="col-xs-12">Hello, World!</h1>
+            <h1 class="col-xs-12">Hello, world!</h1>
           </div>
           <div class="row">
             <p class="col-xs-12">This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
           </div>
           <div class="row">
-            <p><a class="btn btn-lg primary-btn" type="button" role="button">Learn More &raquo;</a></p>
+            <p><a class="btn btn-lg btn-primary" type="button" role="button">Learn More &raquo;</a></p>
           </div>
 
       </header>

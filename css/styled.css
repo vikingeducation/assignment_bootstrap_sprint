@@ -1,3 +1,6 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+
 .fixed-nav-bar {
   background-color: #222;
   min-height: 50px;
@@ -7,9 +10,9 @@
   width: 100%;
   padding-top: 10px;
   z-index: 1;
-  font-size: 18px;
-  margin-left: -15px; }
-  .fixed-nav-bar a {
+  margin-bottom: 0px;
+  font-size: 18px; }
+  .fixed-nav-bar div a {
     color: #aaa; }
   .fixed-nav-bar a:hover {
     color: white;
@@ -19,16 +22,12 @@
   font-size: 14px; }
 
 main {
-  margin-top: 50px; }
+  margin-top: -20px; }
   main header {
     background-color: #EEEEEE;
     padding: 48px 0px;
     font-size: 21px; }
     main header h1 {
       font-size: 63px; }
-
-.primary-btn {
-  background-color: #286090;
-  margin-left: 15px; }
 
 /*# sourceMappingURL=styled.css.map */
