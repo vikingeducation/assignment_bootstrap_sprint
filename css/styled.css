@@ -1,3 +1,32 @@
+.fixed-nav-bar {
+  background-color: #222;
+  min-height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 10px;
+  z-index: 1;
+  font-size: 18px; }
+  .fixed-nav-bar a {
+    color: #aaa; }
+  .fixed-nav-bar a:hover {
+    color: white;
+    text-decoration: none; }
 
+.login-form {
+  font-size: 14px; }
+
+main {
+  margin-top: 50px; }
+  main header {
+    background-color: #EEEEEE;
+    padding: 48px 0px;
+    font-size: 21px; }
+    main header h1 {
+      font-size: 63px; }
+
+.primary-btn {
+  background-color: #286090; }
 
 /*# sourceMappingURL=styled.css.map */
