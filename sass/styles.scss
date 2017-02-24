@@ -1,36 +1,4 @@
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-top: 50px;
 }
-
-.fixed-nav-bar {
-  background-color: #222;
-  min-height: 50px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding-top: 10px;
-  z-index: 1;
-  margin-bottom: 0px;
-  div a {
-    color: #aaa;}
-    font-size: 18px;
-  & a:hover {
-      color: white;
-      text-decoration: none;}
-  }
-
-.login-form {
-  font-size: 14px;
-}
-
-main {
-  margin-top: -20px;
-  header{
-  background-color: #EEEEEE;
-  padding: 48px 0px;
-  font-size: 21px;
-  h1 {
-    font-size: 63px;
-  }
-}}
