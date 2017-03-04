@@ -1,0 +1,26 @@
+{
+  "name": "assignment_bootstrap_sprint",
+  "version": "1.0.0",
+  "description": "Bootstrap Jumbotron Clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rttomlinson/assignment_bootstrap_sprint.git"
+  },
+  "author": "Renzo Tomlinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rttomlinson/assignment_bootstrap_sprint/issues"
+  },
+  "homepage": "https://github.com/rttomlinson/assignment_bootstrap_sprint#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.0"
+  },
+  "scripts": {
+    "build-css" : "./bin/build-css",
+    "watch-css" : "./bin/build-css"
+  }
+}
