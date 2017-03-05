@@ -21,6 +21,6 @@
   },
   "scripts": {
     "build-css" : "./bin/build-css",
-    "watch-css" : "./bin/build-css"
+    "watch-css" : "./bin/watch-css"
   }
 }
