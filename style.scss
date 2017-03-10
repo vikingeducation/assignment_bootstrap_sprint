@@ -1,0 +1,35 @@
+$spacer: 50px;
+$smaller-spacer: 25px;
+
+.navbar-default{
+  background-color: #222;
+}
+
+.navbar-default .navbar-brand{
+  color: #777;
+}
+
+.btn-success{
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  color: #fff;
+}
+
+.jumbotron{
+  position:relative;
+  top: $spacer;
+}
+
+.container-main{
+  position: relative;
+  top: $spacer;
+  padding-bottom: $smaller-spacer;
+  border-bottom: 1px solid #eee;
+}
+
+.container-footer{
+  position: relative;
+  top: $spacer;
+  padding-top: $smaller-spacer;
+  padding-bottom: $smaller-spacer;
+}
