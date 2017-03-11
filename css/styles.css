@@ -1,0 +1,27 @@
+.eyebrow{
+  background-color: #aaa;
+}
+
+.eye{
+  background-color: blue;
+}
+
+.nose{
+  font-size: 28px;
+}
+
+.mouth{
+  background-color: red;
+}
+
+.big-block{
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.small-block{
+  height: 15px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
