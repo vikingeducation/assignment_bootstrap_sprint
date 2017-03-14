@@ -1,5 +1,6 @@
 assignment_bootstrap_sprint
 ===========================
+### Sean Luckett
 
 Pick yourself up!
 
