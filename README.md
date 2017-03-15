@@ -1,4 +1,4 @@
-assignment_bootstrap_sprint
+assignment_bootstrap_sprint by Michał Szymański
 ===========================
 
 Pick yourself up!
