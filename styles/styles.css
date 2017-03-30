@@ -1,0 +1,9 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px; }
+  body section {
+    padding-bottom: 6%; }
+    body section.jumbotron {
+      padding-bottom: 7%; }
+
+/*# sourceMappingURL=styles.css.map */
