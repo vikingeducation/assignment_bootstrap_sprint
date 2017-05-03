@@ -3,45 +3,67 @@
   <head>
     <meta charset="utf-8">
     <title>Jumbotron Template</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
+
   <body>
-    <div class="container-fluid">
-      <div class="row bg-black">
-        <nav class="navbar navbar-inverse col-xs-12">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+
+        <div class="navbar-header">
+          <button type = "button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarForm" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand" href="#">Project name</a>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbarForm" aria-expanded="false">
           <form class="navbar-form navbar-right">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Email">
-              <input type="password" class="form-control" placeholder="Password">
-              <button type="submit" class="btn btn-success">Submit</button>
             </div>
+            <div class="form-group">
+              <input type="password" class="form-control" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
           </form>
-        </nav>
-      </div>
-    </div>
+        </div>
 
-    <div class="container">
-      <section>
-        <div class="row bg-grey"
-        <header class="col-s-10 col-s-offset-2 header">
+      </div>
+    </nav>
+
+    <section class="jumbotron">
+      <div class="container">
+        <header>
           <h1>Hello, world!</h1>
-          <p>
-            This is a template for a simple marketing or informational website.  It includes a large callout called a jumbotron and three supporting pieces of content.  Use it as a starting point to create something more unique.
-          </p>
-          <button>Learn more >></button>
+            <p>
+              This is a template for a simple marketing or informational website.  It includes a large callout called a jumbotron and three supporting pieces of content.  Use it as a starting point to create something more unique.
+            </p>
+          <button class="btn btn-primary btn-lg">Learn more >></button>
         </header>
       </div>
+    </section>
 
+    <section class="container">
+      <div class="row">
         <article class="col-md-4">
           <h3>Heading</h3>
           <p>
             Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
           </p>
-          <button>View details >></button>
+          <button class="btn btn-default">View details >></button>
         </article>
 
         <article class="col-md-4">
@@ -49,7 +71,7 @@
           <p>
             Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
           </p>
-          <button>View details >></button>
+          <button class="btn btn-default">View details >></button>
         </article>
 
         <article class="col-md-4">
@@ -57,12 +79,11 @@
           <p>
             Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
           </p>
-          <button>View details >></button>
+          <button class="btn btn-default">View details >></button>
         </article>
 
-      </section>
-
-    </div>
+      </div>
+    </section>
 
   </body>
 </html>
