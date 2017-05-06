@@ -1,0 +1,27 @@
+h1, h2, header p:nth-of-type(1), section p {
+  color: #33333a; }
+
+.navbar-default {
+  background-color: #33333a;
+  margin-bottom: 0; }
+
+.jumbotron {
+  background-color: #d0d5ec; }
+
+.jumbotron, section {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.glyphicon {
+  vertical-align: middle;
+  font-size: 8px; }
+
+.glyphicon:nth-of-type(2) {
+  margin-left: -4px; }
+
+.divider {
+  margin: 20px 0;
+  background-color: #e9eaf3;
+  height: 2px; }
+
+/*# sourceMappingURL=styles.css.map */
