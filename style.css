@@ -1,4 +1,13 @@
 body {
-    padding-top: 70px;
+    padding-top: 30px;
 }
 
+.copyright {
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 770px) {
+    body {
+        padding-top: 160px;
+    }
+}  /*If I want to always show the login screen this works. But phones have no space for that*/
