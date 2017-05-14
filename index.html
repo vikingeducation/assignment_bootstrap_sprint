@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Project 101</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,10 +19,11 @@
     <![endif]-->
   </head>
   <body>
+    <!-- Navigation -->
     <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Project Name</a>
+          <a class="navbar-brand" href="#">Project 101</a>
         </div>
         <form class="navbar-form navbar-right">
           <div class="form-group">
@@ -35,14 +36,73 @@
         </form>
       </div>
     </nav>
+
+    <!-- Jumbotron -->
     <header class="jumbotron">
       <div class="container">
-        <h1>Hello, world</h1>
-        <p>This is the story of me, myself and I... its not very long.</p>
-        <p>I came I saw I conquered, I was knocked down a boy but raised up a man, I am champion.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        <h1>Hello, world!</h1>
+        <p>This is the story of me, myself and I... its not very long.
+          <br>I came I saw I conquered, I was knocked down a boy but raised up a man, I am champion.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
       </div>
     </header>
+
+    <!-- Articles and Contetn -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <article>
+            <header>
+              <h2>Peppers</h2>
+            </header>
+            <section>
+              <p>Here is some completely random information
+                did you know that green,red and yellow peppers are all the same?
+                they are just in different stages or ripeness!.</p>
+              <a href="#" class="btn btn-default" role="button">View details &raquo;</a>
+            </section>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article>
+            <header>
+              <h2>Bananas</h2>
+            </header>
+            <section>
+              <p>Bananas trees are not actually trees, they are a bush.
+                You see, Bananas are actually part of the berrie family
+                and are themselves berries.</p>
+              <a href="#" class="btn btn-default" role="button">View details &raquo;</a>
+            </section>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article>
+            <header>
+              <h2>Tomatoes</h2>
+            </header>
+            <section>
+              <p>Tomatoes are a fruit but we all knew that!. but did you
+                know that there is a film where giant tomatoes kill people by squashing them?
+                <a href="https://en.wikipedia.org/wiki/Attack_of_the_Killer_Tomatoes">
+                  "Attack of the Killer Tomatoes"</a></p>
+              <a href="#" class="btn btn-default" role="button">View details &raquo;</a>
+            </section>
+          </article>
+        </div>
+      </div>
+    <hr> <!-- What? horizontal rule to create space in bootstrap -->
+
+    <!-- Footer... obviously -->
+    <footer>
+      <div class="row">
+        <div class="col-md-12">
+          <p>&copy;2017 Company 101, Inc.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
