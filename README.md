@@ -1,7 +1,7 @@
 assignment_bootstrap_sprint
 ===========================
 
-Exercise in utilizing Bootstrap! [Link here:](https://unequal-wren.surge.sh) 
+Exercise in utilizing Bootstrap! [Click here to check it out.](https://unequal-wren.surge.sh) 
 
 Pick yourself up!
 
