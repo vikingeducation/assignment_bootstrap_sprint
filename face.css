@@ -1,0 +1,38 @@
+.eyebrows {
+ background: #aaa;
+ height: 50px;
+}
+
+.eyeTop, .eyeMiddle, .eyeBottom {
+  margin-top: 10px;
+  background: #aaccf0;
+  height: 20px;
+}
+
+/*
+.eyeTop {
+  height: 10px;
+}
+
+.eyeMiddle {
+  height: 10px;
+}
+
+.eyeBottom {
+  height: 10px;
+}*/
+
+.nose {
+  height: 200px;
+  background: red;
+  border-radius: 200px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.mouth {
+  margin-top: 20px;
+  background: pink;
+  height: 50px;
+  border: 3px solid #000;
+}
