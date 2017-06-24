@@ -9,6 +9,34 @@
   </head>
     <body>
 
+      <!--top navbar-->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+
+          <!--group brand and menu button together-->
+          <header class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="navbar-signin-form" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Jumbotron Assignment</a>
+          </header>
+
+          <!--group signin form for collapsing-->
+          <section class="collapse navbar-collapse" id="navbar-signin-form">
+            <form class="navbar-form navbar-right">
+              <section class="form-group">
+                <input type="email" class="form-control" placeholder="Email">
+                <input type="password" class="form-control" placeholder="Password">
+              </section>
+              <button type="submit" class="btn btn-success">Sign in</button>
+            </form>
+          </section>
+
+        </div>
+      </nav>
 
       <!--jQuery for Bootstrap JS-->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
