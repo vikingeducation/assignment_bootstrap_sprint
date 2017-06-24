@@ -1,0 +1,10 @@
+/* give the body some breathing room */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* prettify menu button */
+.navbar-header i {
+  color: white;
+}
