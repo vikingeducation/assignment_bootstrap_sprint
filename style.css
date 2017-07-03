@@ -1,6 +1,8 @@
-.test {
-  background: blue; }
+/* Bootstrap Overrides */
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px; }
 
-/* .test */
+/* .nav */
 
 /*# sourceMappingURL=style.css.map */
