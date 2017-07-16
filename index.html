@@ -9,7 +9,10 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- note: extremely strange but my navbar wouldn't work unless I used the CDN version of bootstrap.min.css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,39 +25,60 @@
 
   </head>
   <body>
-    <!-- nav bar -->
-    <div class='container'>
-      <!-- Title Header -->
 
-      <!-- Collapsible form -->
-
-    </div>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <!--the button for when the navbar collapses -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <p class='navbar-brand'>Project Title</p>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input class="form-control" type="text" name="email" placeholder="Email">
+            </div>
+            <div class='form-group'>
+              <input class="form-control" type="text" name="password" placeholder="Password">
+            </div>
+            <button class="btn btn-success">Sign In</button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
     <!-- Jumbotron -->
     <div class='jumbotron'>
       <div class='container'>
         <h1>Hello, world!</h1>
         <p>Bootstrap templates are very useful, but I'll be damned if you want to change the style on one of their buttons, there will be hell to pay!</p>
-        <button class="btn btn-primary"><a>Learn More »</a></button>
+        <a><button class="btn btn-primary">Learn More »</button></a>
       </div>
     </div>
+
     <!-- main content -->
     <div class='container'>
       <section class='row'>
         <article class='col-md-4'>
           <h3>Heading</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button class="btn btn-secondary"><a>View details »</a></button>
+          <a><button class="btn btn-secondary">View details »</button></a>
         </article>
         <article class='col-md-4'>
           <h3>Heading</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button class="btn btn-secondary"><a>View details »</a></button>
+          <a><button class="btn btn-secondary">View details »</button></a>
         </article>
         <article class='col-md-4'>
           <h3>Heading</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button class="btn btn-secondary"><a>View details »</a></button>
+          <a><button class="btn btn-secondary">View details »</button></a>
         </article>
       </section>
       <hr>
@@ -63,6 +87,7 @@
       <footer>
         <p>2017 Fancy Company</p>
       </footer>
+      <!-- end of container -->
     </div>
 
 
