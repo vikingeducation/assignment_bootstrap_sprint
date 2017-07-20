@@ -7,3 +7,5 @@ Pick yourself up!
 
 
 Gregory Alford
+View my jumbotron here:
+https://coelacanth7.github.io/assignment_bootstrap_sprint/
