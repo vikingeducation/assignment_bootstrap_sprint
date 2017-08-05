@@ -10,8 +10,8 @@
     
     <body>
         <!--fixed navbar -->
-        <nav>
-            <div class="container">
+        <nav role="navigation" class="navbar">
+            <div class="container-fluid fixed">
                 <div class="row">
                     <div class="col-sm-1"></div>
                     <div class="col-sm-2"></div>
@@ -24,15 +24,18 @@
         <!--end fixed navbar-->
         
         <main>
-            <section class="header jumbotron container">
+            <section class="header jumbotron container-fluid">
                 <div class="row">
-                    <div class="col"><h1>Hello, world!</h1></div>
-                    <div class="col"><p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to creat something more unique.</div>
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <h1>Hello, world!</h1>
+                        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
                     
                     <!-- primary button -->
-                    <button type="button" class="btn btn-primary btn-lg">Learn more »
-                    </button>
-                
+                        <div>    
+                        <button type="button" class="btn btn-primary btn-lg">Learn more »
+                        </button>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="body-content">
