@@ -1,0 +1,17 @@
+.body-content,
+.footer {
+  padding-bottom: 25px; }
+
+.jumbo {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  /** Reduce bottom padding at smaller sizes **/ }
+  @media only screen and (max-width: 750px) {
+    .jumbo {
+      padding-bottom: 25px; } }
+
+.footer {
+  border-top: solid 1px #eee;
+  padding-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+$padding: 50px;
+
+.body-content,
+.footer {
+    padding-bottom: $padding/2;
+}
+
+.jumbo {
+    padding-top:  $padding;
+    padding-bottom: $padding*.4;
+    /** Reduce bottom padding at smaller sizes **/
+    @media only screen and (max-width : 750px) {
+        padding-bottom: $padding/2;
+    }
+}
+
+
+.footer {
+    border-top: solid 1px #eee;
+    padding-top: $padding*.4;
+}
