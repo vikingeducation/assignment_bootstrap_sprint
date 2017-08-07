@@ -1,5 +1,7 @@
 assignment_bootstrap_sprint
 ===========================
+Jared Gebel
+8/5/2017
 
 Pick yourself up!
 
