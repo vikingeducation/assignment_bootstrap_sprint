@@ -1,0 +1,211 @@
+$max-screen-width: 768px;
+
+body {
+	margin:0;
+}
+
+//fixed navbar to top of page
+.top-menu {
+    //overflow: hidden; -- this needs to removed as this will cause the menu dropdown not to be hidden
+
+    background-color: #262626;
+    font-family: Arial;
+    width: 100%;
+    height: 60px;
+    top:0;							//fixes navbar to top of page
+    position: fixed;
+    
+	a {
+	    float: left;
+	    font-size: 16px;
+	    color: white;
+	    text-align: center;
+	    text-decoration: none;
+	}
+
+	//Navbar link is made slighter bigger font than the other links
+	#navbar {		
+		font-size: 22px;
+		padding: 18px 14px;
+	}
+
+	#home, #disabled, #link {
+		padding: 22px 14px;
+	}
+
+	//disabled link is made dark gray and no hover to show that it is disabled
+	#disabled {
+		color: dimgray;
+	}
+
+	//Link has a color change on cursor hover
+	#link {
+		color: darkgray;
+
+		&:hover {
+		    color: whitesmoke;
+		}
+	}
+
+	//dropdown menu - using button 
+	.drop-down {
+	    float: left;
+	    overflow: hidden;
+
+		button {
+		    font-size: 16px;    
+		    border: none;
+		    outline: none;
+		    color: darkgray;
+		    padding: 22px 14px;
+		    background-color: inherit;
+		}
+		
+		&:hover button {
+			color: whitesmoke;
+		}
+
+	}
+
+	//dropdown menu is displayed only on hover
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 160px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    z-index: 1;
+		
+		a {
+		    float: none;
+		    color: black;
+		    padding: 12px 16px;
+		    text-decoration: none;
+		    display: block;
+		    text-align: left;
+
+		    &:hover {
+			    background-color: #f2f2f2;
+			}
+		}
+	}
+
+	.drop-down:hover .dropdown-content {
+	    display: block;
+	}
+
+	//search bar
+	.search {
+		float: right;
+		margin: 10px;
+
+		input {
+			height: 40px;
+			width: 200px;
+			padding: 5px 10px;
+			border-radius: 5px;
+		}
+
+		button {
+			height: 40px;
+			width: 70px;
+			border: 2px solid #009900;	
+			background-color: #262626;
+			color: #009900;
+			border-radius: 5px;
+			margin: auto 10px;
+		}
+	}
+
+	//most of navbar links and search bar are hidden when screen width decreases below 768px
+	@media only screen and (max-width: $max-screen-width)  {
+		.search, #home, #disabled, #link, .drop-down {
+			display: none;
+		}
+	}
+}
+
+
+//Jumbotron styling
+.jumbo-tron {
+	width: 100%;
+	height: 360px;
+	background-color: #eef2f7;
+	display: block;
+	font-family: 'Droid Sans', sans-serif; //using a different font
+
+	article {
+		width: 80%;
+		height: 260px;
+		margin: 60px 68px;
+		padding: 60px 0;
+	
+		h1 {
+			font-size: 80px;
+			color: black;
+		}
+
+		p {
+			line-height: 24px;
+		}
+
+		button {
+			background-color: #1a53ff;
+			color: white;
+			height: 50px;
+			width: 150px;
+			border-radius: 8px;
+			font-size: 18px;
+
+			span {
+				margin: 0;
+				font-size:20px;
+			}
+		}
+	}		
+}
+
+
+//Articles section with 3 cards
+.articles {
+	display: block;
+	margin: 0 50px;
+
+	//cards are displayed in a row when screen size width is greater than 768px
+	#card1, #card2, #card3 {
+		width: 27%;
+		height: 280px;
+		margin: 30px 18px;
+		float: left;
+
+		//cards are displayed one below the other when screen size width decreases below 768px
+		@media only screen and (max-width: $max-screen-width)  {
+			width: 80%;
+			height: 180px;
+		}
+
+		p {
+			line-height: 22px;
+		}
+
+		button {
+			background-color: #8f99a3;
+			color: white;
+			height: 40px;
+			width: 140px;
+			border-radius: 5px;
+
+			span {
+				margin: 0;
+				font-size:18px;
+			}
+		}
+	}
+}
+
+
+//footer styling
+footer {
+	clear: both;
+	margin: 0 68px;
+}
