@@ -11,38 +11,51 @@
      <!-- Custom styles for this template -->
      <link href="reset.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+
+    <!-- google fonts here -->
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
   </head>
+
+  <!-- Used semantic html tags and sass to mimic bootstrap tags -->
+  <!--The page consists of a navbar, jumbotron, and a section with 3 articles and finally on the bottom a footer -->
   <body>
 
+  <!--Navbar - fixed to top with a dropdown menu and a search section (aligned to the right) -->
     <div class="top-menu">
       <a id="navbar" href="#">Navbar</a>
       <a id="home" href="#">Home</a>
       <a id="link" href="#">Link</a>
       <a id="disabled" href="#">Disabled</a>
+
+      <!-- dropdown menu -->
       <div class="drop-down">
-        <button class="drop-btn">Dropdown <span class="arrow">&#9660;</span></button>
-        <div class="drop-down-content">
+        <button>Dropdown <span class="arrow">&#9660;</span></button>
+        <div class="dropdown-content">
           <a href="#">Action</a>
           <a href="#">Another action</a>
           <a href="#">Something else here</a>
         </div>
       </div> 
+
+      <!-- search section with text input and search button -->
       <div class="search">
         <input type="text" placeholder="Search">
         <button>Search</button>
       </div>
     </div>
 
+    <!-- jumbotron -->
     <section class="jumbo-tron">
       <article>
         <header>
           <h1>Hello, world!</h1>
         </header>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <button class="learn">Learn more <span>&raquo</span></button>
+        <button id="learn">Learn more <span>&raquo</span></button>
       </article>
     </section>
 
+    <!-- section with three article cards - each card has a header, paragraph and a button -->
     <section class="articles">
       <article id="card1">
         <header>
@@ -76,6 +89,7 @@
       </article>
     </section>
 
+    <!-- footer with copyright and horizontal rule line -->
     <footer>
       <hr>
       <p>&copy; Company 2017</p>
