@@ -1,0 +1,28 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+}
+
+
+
+.upper-window{
+
+  min-height: 350px;
+  text-align: left;
+  background-color: #EEEEEE;
+
+  }
+
+}
+.lower-window{
+
+  min-height: 450px;
+  text-align: left;
+  background-color: #white;
+  
+}
+
+.upper-window-margin{
+  margin-top: 50px;
+}
