@@ -1,0 +1,41 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+}
+
+
+
+.upper-window{
+
+  min-height: 350px;
+  text-align: left;
+  background-color: #EEEEEE;
+
+  }
+
+}
+.lower-window{
+
+  min-height: 500px;
+  text-align: left;
+  background-color: #white;
+
+}
+
+.upper-window-margin{
+  margin-top: 50px;
+}
+hr {
+
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: lightgray;
+}
+.hline { width:100%; height:1px; background: #lightgray;
+ }
