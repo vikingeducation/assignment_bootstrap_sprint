@@ -5,17 +5,61 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<link href="/styles/styles.css" type="text/css" rel="stylesheet">
+<link href="styles/styles.css" type="text/css" rel="stylesheet">
 </head>
-<body>
-	<html>
-	<div class="container">
-		<div class="jumbotron">
-		</div>
 
+	<html>
+	<body>
+	<div class="container-fluid">
+		<nav class="navbar navbar-inverse navbar-fixed-top" >
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Project Name</a>
+					<div class="forms pull-right hidden-xs">
+					<form class="form-inline">
+						<div class="form-group">
+							<label for="email"></label>
+							<input type="email" class="form-control" id="email" placeholder="E-mail">
+							</div>
+							<div class="form-group">
+								<label for="pwd"></label>
+								<input type="password" class="form-control" id="pwd" placeholder="Password">
+				</div>
+					<button type="submit" class="btn btn-success">Sign In</button>
+				</form>
+			</div>
+
+			<button class="btn btn-primary pull-right dropdown-toggle visible-xs" data-toggle="dropdown" type="button" href=""> <span class="glyphicon glyphicon-menu-hamburger"></span></button>
+<ul class="dropdown-menu">
+	<div class="form-inline">
+	<div class="form-group">
+				<form class="testing">
+				<li><label for="email"></label>
+		<input type="email" class="form-control" id="email" placeholder="E-mail"></li>
+		<div class="form-group">
+						<li><label for="pwd"></label><input type="password" class="form-control" id="pwd" placeholder="Password"></li>
+					</div>
+			<li><button type="submit" class="btn btn-success">Sign In</button></li>
+</form>
+</div>
+</ul>
+			</div>
+		</nav>
+
+		<div class="jumbotron">
+			<h1 class="hello">Hello, World!<h1>
+				<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p><button type="submit" class="btn btn-primary main">View Details<div class="arrowmain">>></div></button>
+		</div>
+		<div class="container">
+  <div class="row">
+		<div class="col-sm-4"><article><h1>Heading</h1><p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p></article><button type="submit" class="btn btn-default">View Details<div class="arrow">>></div></button></div>
+
+				<div class="col-sm-4"><article><h1>Heading</h1><p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p></article><button type="submit" class="btn btn-default">View Details<div class="arrow">>></div></button></div>
+						<div class="col-sm-4"><article><h1>Heading</h1><p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p></article><button type="submit" class="btn btn-default">View Details<div class="arrow">>></div></button></div>
+	</div>
 	</div>
 
 	</body>
