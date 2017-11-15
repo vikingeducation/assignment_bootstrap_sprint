@@ -1,41 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Bootstrap Jumbotron Template</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
-<!-- remove stylesheet if you don't end up using it (broken currently) -->
-    <link rel="stylesheet" href="style.css">
-    <script src="Assets/js/jquery-3.2.1.slim.min.js"></script>
-    <script src="Assets/js/popper.min.js"></script>
-    <script src="Assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
 
   <body>
 
 <!-- navbar -->
-<nav class="navbar bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 
   <div class="container">
 
-    <div class="row rowfix">
+    <h3 class="navbar-brand text-secondary mt-1">
+        Project Name
+    </h3>
 
-      <div class="col-md-1">
-        <h2 class="navbar-brand text-muted">
-            Project Name
-        </h2>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <div class="mr-auto">
       </div>
 
-      <div class="col-md-11">
-        <form class="float-right">
-          <input type="email" placeholder="Email">
-
-          <input type="password" placeholder="Password">
-
-          <button type="button" class="btn btn-success">Sign In</button>
-        </form>
-      </div>
+      <form class="form-inline">
+        <input class="form-control" type="email" placeholder="Email">
+          <input class="form-control ml-1 mr-1" type="password" placeholder="Password">
+        <button type="button" class="btn btn-success">Sign In</button>
+      </form>
 
     </div>
 
@@ -48,7 +44,7 @@
 <main class="jumbotron">
 
   <div class="container">
-    <h1 class="display-2">
+    <h1 class="display-4 font-weight-bold">
       Hello, world!
     </h1>
 
@@ -82,7 +78,7 @@
     Donec sed odio dui.
   </p>
 
-  <button type="button" class="btn btn-secondary">View Details »</button>
+  <button type="button" class="btn btn-light border border-secondary mb-3">View Details »</button>
 
 </article>
   <!-- article 1 -->
@@ -101,7 +97,7 @@
     Donec sed odio dui.
   </p>
 
-  <button type="button" class="btn btn-secondary">View Details »</button>
+  <button type="button" class="btn btn-light border border-secondary mb-3">View Details »</button>
 
 </article>
     <!-- article 2 -->
@@ -120,29 +116,26 @@
     Donec sed odio dui.
   </p>
 
-  <button type="button" class="btn btn-secondary">View Details »</button>
+  <button type="button" class="btn btn-light border border-secondary mb-3">View Details »</button>
 
 </article>
   <!-- article 3 -->
+
 </div>
-      <hr>
-  </div>
-<!-- bottom articles -->
 
-<!-- footer -->
-<div class="row">
+  <hr>
 
-  <div class="col-md-12">
-
-    <footer class="container">
+    <footer>
       <p>© 2016 Company, Inc.</p>
     </footer>
 
   </div>
-
-</div>
-<!-- footer -->
+<!-- bottom articles -->
 
   </body>
+
+  <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
 
 </html>
