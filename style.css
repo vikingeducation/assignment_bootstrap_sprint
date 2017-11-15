@@ -8,201 +8,226 @@ html, body {
 
 /*Header */
 
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  border:2px solid #505559;
-  background: #036EEE; 
-  height: 30px;
-  padding-bottom: 2em;
-
+#header {
+    border:2px solid #505559;
+    margin:0 auto;
+    width:100%;
+    background: #0E0C08;
+    height: 45px;
+    padding-bottom: 25px;
 }
 
-.header h1 {
+
+#header h1 {
     margin-left: 10%;
-    bottom:20px;
     float: left;
-    color: #FFFFFF;
+    color: #F6EAD1;
     font: 30px arial, sans-serif; 
 }
 
-.header img {
-    position: fixed;
-    height:50px;
-    width:50px; 
-    widows: 4px;0px;
-    right:90%;
-    margin:5px 8px 0 5px;
-
+#header form {
+    float: right; 
+    margin-right: 5%; 
+    height: 40px; 
+    padding-top: 8px;
+    font: 12px arial, sans-serif;
 }
 
-
-.header a {
-    position: fixed;
-    left:80%;
-    top: 5%;
-    text-decoration: none;
-    color: #FFFFFF;
-
-}
-.wrapper {
-  position: fixed;
-  width: 100%;
-  height: 80px;
-  font-size: 0;
-  top: 10%;
-  left:32%;
-  -webkit-transform: translateY(-40%);
-  transform: translateY(-40%);
+#header form label {
+    display: inline-block; 
+    margin: 0 2px;
 }
 
-.search {
-  width:30%;
-  font-size: 18px;
-  max-width: 400px;
-  height: 19px;
-  border: 1px solid #b3b3b3;
-  border-radius: 15px 0 0 15px;
+#header form input {}
+
+#header form #s-user, 
+#header form #s-pass {
+    display: block;
+    width: 250px;
+    border: 1px solid #eee;
+    padding: 4px 0 4px 0;
+    
 }
 
-.submit {
-   top:.4em;
-  cursor: pointer;
-  border: none;
-  background: url("http://thesuiteworld.com/wp-admin/maint/search-icon-white-png-540.png") no-repeat center center, #1E1E20;
-  background-size: 22px 22px;
-  border-radius: 0 12px 12px 0;
-  padding: 8px 3px 16px 3px;
-  display: inline-block;
-  width: 80px;
-  height: 5px;
+#header form .submit {
+    height: 23px;
+    vertical-align: bottom;
+    background: #477421; 
+    color: #010105;
+    border: 1px solid #ddd;
+    -moz-border-radius: 5px;    
+    border-radius: 5px;
+    cursor:pointer;
 }
+
 
 /**
  * Body
  */
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.content {
+    padding: none;
+    float: left;
+
+}
+
+/**
+ * Navigation Section
+ */
+.top-navigation {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+
+}
+.top-navigation > .content {
+    height: 4.375rem;
+}
+.top-navigation .logo {
+    height: 4.375rem;
+    margin-left: 14px;
+}
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+/**
+ * Introduction Section
+ */
 .introduction {
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    height: 595px;
+    height: 500px;
     overflow: auto;
-    width:100%;
-}
-
-.about-top {
-    margin: 100px auto;
-    margin-top:8.3%;
-    width: 1050px;
-    height: 303px;
-    border: 2px solid #92939C;
-    box-sizing: border-box;
-    margin-left: 12%;
-    background-image: url("fields.jpg");
+    width: 100%;
+    overflow-x: hidden;
 
 }
-
-.bottom-border img {
-  margin-top:11%;
-  background-color: #92939C;
-  margin-left: 1em;
-  padding:40px 50px 50px 40px;
+.introduction h1,
+.introduction p {
+  width: 100%;
+    color: #0D110A;
+    font-weight: 300;
+    font-family: sans-serif;
 
 }
+.introduction h1 {
+  margin-left:1em;
+    margin-top: 1em;
+    font-size: 3.125rem;
+}
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 25px;
+    float: left;
+}
 
-.about-top img:hover {
+.introduction p {
+  margin-left:2.5em;
+}
+
+/**
+ * The buttons
+ */
+.introduction .buttons {
+    color: white;
+    margin-top: 1.563rem;
+    margin-left:5em;
+}
+// .introduction .half {
+//     width: 49%;
+//     padding: 0 0.938rem;
+//     display: inline-block;
+//     vertical-align: bottom;
+//     font-size: 1.125rem;
+//     line-height: 1.2;
+// }
+
+.introduction .learn button {
+    width: 9.688rem;
+    background-color: #35538F;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+/*.focus {
+    outline: none;
+}*/
+.introduction .learn button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
     cursor: pointer;
 }
-
-.bottom-border {
-    height: 10%;
-    width:100%;
-}
-.outer{background:#E6E0D3; width:100%; height:56px;}
-.wrap{margin-left:30%;  }
-.wrap li{
-    padding:15px;
-    text-align: left;
-    width:26%;
-    display:table-cell;
-    border-right:solid #5E5C58 1.5px;
-    line-height: 1.7;
-}
-li:first-child {
-    border-left:solid #5E5C58 1.5px;
-}
-
-
-li:hover {
+.introduction .watch img:hover {
     cursor: pointer;
 }
-
-
-.outer a {
-  float: right;
-  text-decoration: none;
-  margin-right:10%;
-  margin-top:1em;
-  
-
+.introduction .watch img {
+    position: relative;
+    top: 0.625rem;
 }
 
-.bottom-border-lower {
-    width:100%;
-    height: 140%;
-    border: 2px solid #92939C;
-    border-top:none;
-    box-sizing: border-box;
-    margin-top: -1.6%;
-    margin-bottom:5%;
-}
+/**
+ * The Three Case Images
+ */
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+  height: 400px;
 
-.basic-info h1 {
+}
+.cases .content {
+    margin-top: 4em;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+.cases .devices {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
     margin-left:10%;
 }
-
-.basic-info table {
-    margin-left: 10%;
+.cases .devices > li {
+    width: 33.3333333%;
 }
-
-.top-menu {
-    margin-top:28%;
-    background-color: #A6A49E;
-}
-
-.top-menu h1 {
-    padding-top:.6em;
-    text-align: center;
-    font-size: 18px;
-    color: #140E01;
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
 
 }
-
-.basic-info {
-   margin:1em;
-   padding:.5em;
-
-}
-
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 2px solid #92939C;
-    margin: 1em 0;
-    padding: 0;
-}
-
-/* Not sure how to 
-align two divs without negative
-margin.  */
-
-.description-right {
-    float: right;
-    width: 50%;
-    margin-top:-26%;
+.cases .devices p {
+    font-weight: 300;
+    font-size: 1.313rem;
 }
 
 
