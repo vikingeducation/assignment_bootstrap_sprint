@@ -1,0 +1,253 @@
+html, body {
+ margin: 0; 
+ padding: 0;
+ overflow-y: auto;
+ background: #f2f2f2;
+ font-family: 'Open Sans', sans-serif;
+}
+
+/*Header */
+
+#header {
+    border:2px solid #505559;
+    margin:0 auto;
+    width:100%;
+    background: #0E0C08;
+    height: 45px;
+    padding-bottom: 25px;
+}
+
+
+#header h1 {
+    margin-left: 4%;
+    float: left;
+    color: #F6EAD1;
+    font: 30px arial, sans-serif; 
+}
+
+#header form {
+    float: right; 
+    margin-right: 5%; 
+    height: 40px; 
+    padding-top: 8px;
+    font: 12px arial, sans-serif;
+}
+
+#header form label {
+    display: inline-block; 
+    margin: 0 2px;
+}
+
+#header form input {}
+
+#header form #s-user, 
+#header form #s-pass {
+    display: block;
+    width: 250px;
+    border: 1px solid #eee;
+    padding: 4px 0 4px 0;
+    
+}
+
+#header form .submit {
+    height: 23px;
+    vertical-align: bottom;
+    background: #477421; 
+    color: #010105;
+    border: 1px solid #ddd;
+    -moz-border-radius: 5px;    
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+
+/**
+ * Body
+ */
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.content {
+    margin-left: auto;
+    margin-right:auto;
+    
+
+}
+
+/**
+ * Navigation Section
+ */
+.top-navigation {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+
+}
+.top-navigation > .content {
+    height: 4.375rem;
+}
+
+
+/**
+ * Introduction Section
+ */
+.introduction {
+    height: 500px;
+    overflow: auto;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+.introduction h1,
+.introduction p {
+  width: 80%;
+    color: #0D110A;
+    font-weight: 300;
+    font-family: sans-serif;
+
+}
+.introduction h1 {
+  margin-left:1em;
+    margin-top: 1em;
+    font-size: 3.125rem;
+}
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 25px;
+    float: left;
+}
+
+.introduction p {
+  margin-left:2.5em;
+}
+
+/**
+ * The buttons
+ */
+.introduction .buttons {
+    color: white;
+    margin-top: 1.563rem;
+    margin-left:5em;
+}
+// .introduction .half {
+//     width: 49%;
+//     padding: 0 0.938rem;
+//     display: inline-block;
+//     vertical-align: bottom;
+//     font-size: 1.125rem;
+//     line-height: 1.2;
+// }
+
+.introduction .learn button {
+    width: 9.688rem;
+    background-color: #35538F;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+/*.focus {
+    outline: none;
+}*/
+.introduction .learn button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+.introduction .watch img:hover {
+    cursor: pointer;
+}
+.introduction .watch img {
+    position: relative;
+    top: 0.625rem;
+}
+
+/**
+ * The Three Case Images
+ */
+.cases {
+background-color: #fff;
+   overflow: hidden;
+   height: 400px;
+
+
+}
+.cases .content {
+    margin-top: 4em;
+    padding: none;
+    color: #1d1e21;
+}
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+.cases .devices {
+    // display: flex;
+    list-style-type: none;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.cases .devices > li {
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding:1em;
+
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+
+}
+.cases .devices p {
+    font-weight: 300;
+    font-size: 1.313rem;
+}
+
+
+/**
+ * Footer
+ */
+.footer {
+    background-color: #DBD7CF;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+    padding-bottom:0;
+    height: 50px;
+}
+
+.content-footer{
+    text-align: center;
+    margin-top:1em;
+}
+
+
+/**
+ * Responsive Design
+ */
+@media (min-width: 45rem) {
+    .content {
+        width: 65rem;
+    }
+}
+@media (min-width: 75rem) {
+    .content {
+        width: 60rem;
+    }
+}
+@media (min-width: 75rem) {
+    .content {
+        width: 100%;
+    }
+}
+
