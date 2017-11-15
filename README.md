@@ -1,8 +1,5 @@
 Built a home page template. 
 Preview: https://sarahschoonmaker.github.io/assignment_bootstrap_sprint/
-=======
-assignment_bootstrap_sprint
-===========================
 
 Pick yourself up!
 
