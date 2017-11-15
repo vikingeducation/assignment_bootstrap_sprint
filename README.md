@@ -1,5 +1,4 @@
-assignment_bootstrap_sprint
-===========================
+
 
 Built a home page template. 
 
