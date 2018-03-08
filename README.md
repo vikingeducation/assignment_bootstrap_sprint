@@ -3,7 +3,7 @@ assignment_bootstrap_sprint
 
 by Brennan Fulmer
 
-https://brennanfulmer.github.io/Public_Bootstrap_Sprint/
+https://brennanfulmer.github.io/assignment_bootstrap_sprint/
 
 link to the mockup:
 http://getbootstrap.com/docs/3.3/examples/jumbotron/
