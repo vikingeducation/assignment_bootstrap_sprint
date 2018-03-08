@@ -1,13 +1,8 @@
 assignment_bootstrap_sprint
 ===========================
 
-Pick yourself up!
+by Brennan Fulmer
 
-[A Bootstrap, HTM5 and SASS project from the Viking Code School](http://www.vikingcodeschool.com)
-
-Brennan Fulmer
-
-Click this link to view the current production version as an actual web page:
 https://brennanfulmer.github.io/Public_Bootstrap_Sprint/
 
 link to the mockup:
